@@ -78,7 +78,7 @@ ul.nav-bar{
     white-space: nowrap; 
     text-transform: capitalize;
     font-weight: 700;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 /* project section  */
@@ -101,6 +101,9 @@ ul.nav-bar{
 }
 .project img{
     width: 100%;
+}
+#about-me .about-me-box ul li{
+    font-family: cursive;
 }
 
 /* Contacts Section  */
