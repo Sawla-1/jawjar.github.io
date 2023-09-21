@@ -78,12 +78,11 @@ ul.nav-bar{
     white-space: nowrap; 
     text-transform: capitalize;
     font-weight: 700;
-    font-size: larger;
+    font-size: 120%;
 }
 
 /* project section  */
 #projects{
-    margin-top: -2%;
     margin-bottom: 10%;
 }
 #projects h1{
@@ -106,7 +105,6 @@ ul.nav-bar{
 
 /* Contacts Section  */
 #contacts{
-    margin-top: -2%;
     background-color: rgb(251, 244, 252);
     padding: 0.1% 0 3% 0;
 }
