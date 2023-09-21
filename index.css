@@ -51,6 +51,10 @@ body{
     font-family:cursive;
 }
 
+/* nav-bar section  */
+.nav-bar{
+    padding: 3%;
+}
 ul.nav-bar{
     margin: 0;
     opacity: 80%;
