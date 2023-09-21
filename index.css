@@ -1,7 +1,7 @@
 body{
     margin: 0;
-    font-family: cursive;
-    color: rgb(45, 45, 45);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(38, 43, 38);
 }
  /* about me section  */
 #about-me h1{
@@ -12,6 +12,11 @@ body{
     justify-content: center;
     display: flex;
     margin-bottom: 10%;
+}
+.about-me-box li{
+    text-align: left;
+    list-style-type: disc;
+    margin: 1% 0;
 }
 
 .about-me-box{
@@ -39,7 +44,11 @@ body{
 
 #home p{
     margin-top: -40px;
-    color: rgb(108, 107, 107);
+    color: rgb(39, 39, 39);
+    font-style: italic;
+    font-weight:400;
+    padding: 0 5%;
+    font-family:cursive;
 }
 
 ul.nav-bar{
@@ -50,24 +59,26 @@ ul.nav-bar{
     width: 100%;
     list-style: none;
     display: flex;
-    background-color: rgb(58, 124, 62);
+    background-color: rgba(47, 161, 238, 0.438);
 }
 .nav-bar li{
     padding: 10px;
 }
 
 .nav-bar li:hover{
-    background-color: rgb(186, 197, 31);
+    background-color: rgb(0, 255, 98);
 }
 .nav-bar a{
-    color: rgb(4, 255, 234);
+    color: rgb(3, 42, 214);
     text-decoration: none;
     white-space: nowrap; 
     text-transform: capitalize;
+    font-weight: 700;
 }
 
 /* project section  */
 #projects{
+    margin-top: 20%;
     margin-bottom: 10%;
 }
 #projects h1{
@@ -86,4 +97,14 @@ ul.nav-bar{
 }
 .project img{
     width: 100%;
+}
+
+/* Contacts Section  */
+#contacts{
+    background-color: rgba(249, 186, 255, 0.226);
+    padding: 0.1% 0 5% 0;
+}
+#contacts h1,li{
+    text-align: center;
+    list-style-type:none;
 }
